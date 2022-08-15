@@ -54,5 +54,8 @@ Extended docker image for experiments on ML image processing and experimental ML
 ## To do access for Bash based access and run (Note basic vim included -withot plugins ) 
 ```$ docker exec -it jupyter_docker bash ```
 
+### Without building you can use by dockerhub image
+```$ docker run --rm -it  -v $(pwd):/tf/work  -p 8888:8888 -p 6006:6006 --name jupyter_docker nbmaiti/tf_devel_jupyter```
+
 
 
