@@ -53,4 +53,4 @@ RUN python3 -m pip install  \
 
 
 
-CMD ["bash", "-c", "source /etc/bash.bashrc && echo core >/proc/sys/kernel/core_pattern && jupyter notebook --notebook-dir=/tf --ip 0.0.0.0 --no-browser --allow-root"]
+CMD ["bash", "-c", "source /etc/bash.bashrc && jupyter notebook --notebook-dir=/tf --ip 0.0.0.0 --no-browser --allow-root"]
