@@ -2,7 +2,9 @@
 TensorFlow 2 with keras Jupyter and other standard ML library as well ans linux build-essential package included.
 Extended docker image for experiments on ML image processing and experimental ML programs
 
-
+## Versions
+    TensorFlow -2.9.1
+    Keras-2.9.0
 
 ## Included linux tools
 	build-essential
