@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: nbmaiti/tf_devel_jupyter:latest
+          tags: nbmaiti/tf-devel-jupyter:latest

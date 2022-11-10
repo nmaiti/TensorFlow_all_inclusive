@@ -48,16 +48,16 @@ Extended docker image for experiments on ML image processing and experimental ML
     'protobuf < 4'
     
 ## To build the docker image 
-```$ docker build -t $(USER)/tf_devel_jupyter  .```
+```$ docker build -t $(USER)/tf-devel-jupyter  .```
 
 ## To run image and use Jupyter + shell
-```$ docker run --rm -it  -v $(pwd):/tf/work  -p 8888:8888 -p 6006:6006  --name jupyter_docker $(USER)/tf_devel_jupyter ```
+```$ docker run --rm -it  -v $(pwd):/tf/work  -p 8888:8888 -p 6006:6006  --name jupyter-docker $(USER)/tf-devel-jupyter ```
 
 ## To do access for Bash based access and run (Note basic vim included -withot plugins ) 
-```$ docker exec -it jupyter_docker bash ```
+```$ docker exec -it jupyter-docker bash ```
 
 ### Without building you can use by dockerhub image
-```$ docker run --rm -it  -v $(pwd):/tf/work  -p 8888:8888 -p 6006:6006 --name jupyter_docker nbmaiti/tf_devel_jupyter```
+```$ docker run --rm -it  -v $(pwd):/tf/work  -p 8888:8888 -p 6006:6006 --name jupyter_docker nbmaiti/tf-devel-jupyter```
 
 
 
